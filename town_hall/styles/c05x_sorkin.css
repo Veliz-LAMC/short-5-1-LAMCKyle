@@ -1,4 +1,78 @@
+/* The reset selector */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: yellow;
+}
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	width: 650px;
+	margin: auto;
+	border: 10px double blue;
+	background-color: white;
+}
+
+h1 {
+	font-size: 150%;
+	color: blue;
+	padding: 15px 0px 0px 0px;
+}
+
+h2 {
+	font-size: 125%;
+	padding: 15px 0px 5px 0px;
+	margin:
+}
+
+h3 {
+	font-size: 115%;
+	padding: 15px 0px 5px 0px;
+}
+
+p {
+	padding: 0px 0px 10px 0px;
+}
+
+p cite {
+	color: blue;
+	display: block;
+	text-align: right;
+	font-style: normal;
+}
+
+blockquote {
+	
+}
+
+ul {
+	padding: 0px 0px 0px 20px;
+}
+
+li {
+	padding: 0px 0px 2px 0px;
+}
+
+img {
+	float: left;
+	padding: 5px 10px 10px 0px;
+}
+
+main {
+	clear: left;
+	padding: 5px 28px 20px 28px;
+}
+
+footer {
+	width: 90%;
+	margin: auto;
+	padding: 10px 0px 0px 0px;
+	border-top: 5px solid blue;
+	text-align: center;
+	font-size: 90%;
+	font-weight: bold;
 }
